@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    
+}
+
+a:hover {
+ opacity: 0.7;
+
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif,;
+    background:rgb(72, 145, 129);
+    height: 8vh;
+}
+
+main {
+    background: url("/img/good-to-know-before-you-travel-to-nyc.jpg") no-repeat
+    center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    initial-letter: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu {
+    cursor:pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: white;
+    margin: 8px;
+}
+
+
